@@ -174,6 +174,6 @@ MIT - see [LICENSE](LICENSE)
 
 <div align="center">
 
-Made with Zig by **Windneiro**
+Made with Zig by **[Windneiro](https://t.me/Windneiro)**
 
 </div>
