@@ -19,8 +19,6 @@
 
 </div>
 
----
-
 ## Features
 
 - **Colorful output** — directories, files, and symlinks each have distinct colors
@@ -33,9 +31,6 @@
 - **No dependencies** — single binary, zero runtime deps
 - **Fast** — written in Zig for native performance
 - **Cross-platform** — Linux, Windows, macOS
-
----
-
 ## Preview
 
 ```
@@ -52,8 +47,6 @@
 
 2 directories, 6 files (16.5K total)
 ```
-
----
 
 ## Installation
 
@@ -101,8 +94,6 @@ build-all.bat
 
 Binaries are placed in `./dist/`.
 
----
-
 ## Usage
 
 ```
@@ -129,8 +120,6 @@ PATH defaults to the current directory if omitted.
 | `--unicode`         |        | Use Unicode box-drawing charcters|
 | `--count`         |        | Show summary counts only           |
 
----
-
 ## Examples
 
 ```bash
@@ -156,8 +145,6 @@ trex . --no-color --ascii
 trex /var --count
 ```
 
----
-
 ## Project Structure
 
 ```
@@ -170,8 +157,6 @@ trex/
 └── README.md
 ```
 
----
-
 ## Build Details
 
 The default optimize mode is `ReleaseSafe` (safe optimizations + bounds checking).
@@ -183,13 +168,9 @@ zig build -Doptimize=ReleaseFast
 
 Cross-compilation uses Zig's built-in support — no external toolchain required.
 
----
-
 ## License
 
 MIT — see [LICENSE](LICENSE)
-
----
 
 <div align="center">
 
