@@ -1,0 +1,11 @@
+zig-out/
+.zig-cache/
+
+dist/
+*.exe
+*.pdb
+*.obj
+
+.vscode/
+.idea/
+*.log
