@@ -9,7 +9,7 @@
     ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
 ```
 
-**Tree Explorer** — a beautiful, fast directory tree viewer for your terminal
+**Tree Explorer** - a beautiful, fast directory tree viewer for your terminal
 
 [![Zig](https://img.shields.io/badge/Zig-0.13.0-F7A41D?style=flat-square&logo=zig&logoColor=white)](https://ziglang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
@@ -21,16 +21,16 @@
 
 ## Features
 
-- **Colorful output** — directories, files, and symlinks each have distinct colors
-- **Smart sorting** — alphabetical by default, with `--dirs-first` / `--files-first`
-- **Pattern filtering** — show only files matching a glob pattern (e.g. `*.zig`)
-- **File sizes** — human-readable sizes (B, K, M, G) with `--size`
-- **Hidden files** — toggle visibility with `--all`
-- **Depth control** — limit traversal with `--depth N`
-- **ASCII fallback** — use `--ascii` for classic tree lines
-- **No dependencies** — single binary, zero runtime deps
-- **Fast** — written in Zig for native performance
-- **Cross-platform** — Linux, Windows, macOS
+- **Colorful output** - directories, files, and symlinks each have distinct colors
+- **Smart sorting** - alphabetical by default, with `--dirs-first` / `--files-first`
+- **Pattern filtering** - show only files matching a glob pattern (e.g. `*.zig`)
+- **File sizes** - human-readable sizes (B, K, M, G) with `--size`
+- **Hidden files** - toggle visibility with `--all`
+- **Depth control** - limit traversal with `--depth N`
+- **Unicode** - use `--unicode` for Unicode box-drawing charcters
+- **No dependencies** - single binary, zero runtime deps
+- **Fast** - written in Zig for native performance
+- **Cross-platform** - Linux, Windows, macOS
 ## Preview
 
 ```
@@ -166,11 +166,11 @@ For maximum performance:
 zig build -Doptimize=ReleaseFast
 ```
 
-Cross-compilation uses Zig's built-in support — no external toolchain required.
+Cross-compilation uses Zig's built-in support - no external toolchain required.
 
 ## License
 
-MIT — see [LICENSE](LICENSE)
+MIT - see [LICENSE](LICENSE)
 
 <div align="center">
 
